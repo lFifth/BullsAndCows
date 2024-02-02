@@ -18,7 +18,6 @@ namespace WindowsForm
         private int attempts;
         private Game1 game1;
         private ConsoleOutput consoleOutput = new ConsoleOutput();
-        private Words words = new Words();
         public void Show()
         { Console.Text = consoleOutput.Show(); }
         public void AddShow(params string[] variable)
