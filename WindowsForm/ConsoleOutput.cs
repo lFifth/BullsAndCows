@@ -21,7 +21,6 @@ namespace WindowsForm
                 temp += $"\n{item}";
             return temp;
         }
-
         public string AddShow(string[] variable)
         {
             for (int i = 0; i < 19 - variable.Length; i++)
