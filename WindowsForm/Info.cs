@@ -12,7 +12,7 @@ namespace WindowsForm
 {
     public partial class Info : Form
     {
-        public Info(){ InitializeComponent(); }
+        public Info() { InitializeComponent(); }
         private void CloseButton_Click(object sender, EventArgs e) { this.Close(); }
     }
 }
